@@ -17,7 +17,6 @@ let package = Package(
         .binaryTarget(
             name: "TikTokOpenSDK",
 	    url: "https://github.com/LinkMood-HQ/TikTokOpenSDK/releases/download/5.0.14/TikTokOpenSDK.xcframework-5.0.14.zip",
-            checksum: "a78de5ac03d111c44c8fe79251c1bf44a4b8d5152e713c05b77c14192abc261f"
         )
     ]
 )
