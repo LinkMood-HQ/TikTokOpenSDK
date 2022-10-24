@@ -1,0 +1,23 @@
+// swift-tools-version: 5.7
+// The swift-tools-version declares the minimum version of Swift required to build this package.
+
+import PackageDescription
+
+let package = Package(
+    name: "TikTokOpenSDK",
+    products: [
+        .library(
+            name: "TikTokOpenSDK",
+            targets: [
+                "TikTokOpenSDK"
+            ]
+        ),
+    ],
+    targets: [
+        .binaryTarget(
+            name: "TikTokOpenSDK",
+            url: "https://github.com/LinkMood-HQ/TikTokOpenSDK/archive/refs/tags/5.0.14.zip",
+            checksum: "a78de5ac03d111c44c8fe79251c1bf44a4b8d5152e713c05b77c14192abc261f"
+        )
+    ]
+)
